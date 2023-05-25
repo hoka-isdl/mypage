@@ -18,11 +18,11 @@
           <div>
             <h2>Skill</h2>
             <p class="ui-text-intro">
-              言語：Python,Go,Java,JavaScript,C++<br />
+              言語：Python,Golang,Java,JavaScript,C++<br />
               フレームワーク：Vue,React,Flask,Gin<br />
-              インフラ：Docker<br />
-              実績：学生プログラミングコンテスト準優勝<br />
-              その他：Git，柔道全国大会5位
+              コンテナ：Docker<br />
+              研究室内開発プロジェクト：部屋予約状況把握システム，書籍管理システム，感情評価システム<br />
+              その他：Git，linux
             </p>
             <!-- <ul
               class="ui-component-list ui-component-list-feature ui-layout-grid"
