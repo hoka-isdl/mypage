@@ -98,20 +98,20 @@ a.btn--red {
   background-color: #eb6100;
   border-bottom: 5px solid #b84c00;
 }
-a.btn--red:hover {
+/* a.btn--red:hover {
   margin-top: -17px;
   color: #fff;
   background: #f56500;
   border-bottom: 2px solid #b84c00;
-}
+} */
 a.btn--red.btn--cubic {
   border-bottom: 5px solid #9f000c;
 }
 
-a.btn--red.btn--cubic:hover {
+/* a.btn--red.btn--cubic:hover {
   margin-top: -17px;
   border-bottom: 2px solid #9f000c;
-}
+} */
 
 a.btn--radius {
   border-radius: 100vh;
