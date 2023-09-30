@@ -117,7 +117,6 @@ a.btn--radius {
     margin: 1% 1% 1% 1%;
     height: 60%;
     width: 98%;
-
 }
 .worksdetail .github{
     margin-right: 1rem;
@@ -129,7 +128,6 @@ a.btn--radius {
     font-family: Helvetica, Arial, sans-serif;
     font-size:20px;
     margin-left:1rem;
-
 }
 .worksdetail p{
     margin-left:2rem;
