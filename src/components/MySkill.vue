@@ -10,7 +10,7 @@
         <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
           <!-- IMAGE -->
           <img
-            src="https://res.cloudinary.com/uisual/image/upload/assets/devices/ipad.png"
+            src="../assets/images/skill.png"
             alt="#"
             class="ui-image-half-left"
           />
