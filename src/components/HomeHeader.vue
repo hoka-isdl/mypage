@@ -47,7 +47,7 @@ export default {
   margin-left:60px;
   background-color: #ade0ff;
   border-radius: 300px;
-  width: 25%;
+  width: 320px;
   height: 60px;
 }
 .balloon p{
@@ -129,5 +129,56 @@ nav li a {
 }
 nav li a:hover {
   color: #e03131;
+}
+
+@media screen and (max-width: 650px){
+.balloon{
+  display:none
+}
+.header img {
+  float: left;
+  max-width: 13%;
+  text-align: left;
+}
+}
+@media screen and (max-width: 760px){
+  .balloon{
+  float: left;
+  position: relative;
+  padding: 20px;
+  margin-left:60px;
+  background-color: #ade0ff;
+  border-radius: 300px;
+  width: 220px;
+  height: 60px;
+}
+.balloon p{
+  margin-top:-12px;
+  font-size:15px;
+}
+/* 大きい丸 */
+.balloon::before{
+  content: '';
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  background-color: #ade0ff;
+  left: -35px;
+  bottom: 15px;
+  width: 30px;
+  height: 30px;
+}
+/* 小さい丸 */
+.balloon::after{
+  content: '';
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  background-color: #ade0ff;
+  left: -55px;
+  bottom: 10px;
+  width: 15px;
+  height: 15px;
+}
 }
 </style>

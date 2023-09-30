@@ -6,7 +6,7 @@
       </div>
     </section>
 
-  <section class="ui-section-feature">
+  <section>
     <div class="ui-layout-container">
       <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
         <!-- IMAGE -->
@@ -120,5 +120,17 @@ nav li a:hover {
   /* background-image: url(../img/kiritori2.png); */
   position: relative;
   top: 2000px;
+}
+
+@media screen and (max-width: 460px){
+  .sec-title {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  filter: drop-shadow(1px 1px 10px #c0c0c0);
+  position: absolute;
+  top: 35%;
+}
 }
 </style>

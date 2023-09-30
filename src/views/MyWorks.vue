@@ -55,7 +55,6 @@ button.btn {
   line-height: 1;
   position: relative;
   margin-left:20px;
-  margin-top: -20px;
   display: inline-block;
   padding: 1rem 3rem;
   cursor: pointer;
@@ -101,21 +100,23 @@ a.btn--radius {
   top: calc(50% - .5em);
   right: 1rem;
 }
-
+.works {
+  text-align: center;
+}
 .worksdetail {
   /* position: absolute; */
-  height: 400px;
-  width: 30%;
+  height: 380px;
+  width: 400px;
   background-color: rgb(254, 252, 252);
-  margin-top: 10rem; 
-  margin-left: 2rem; 
+  margin-top: 120px; 
+  margin-left: 2%; 
   display: inline-block;
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
 }
 .worksdetail .worksimage{
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1% 1% 1% 1%;
     height: 60%;
-    width: 92%;
+    width: 98%;
 
 }
 .worksdetail .github{

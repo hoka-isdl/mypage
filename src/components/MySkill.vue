@@ -18,11 +18,11 @@
           <div>
             <h2>Skill</h2>
             <p class="ui-text-intro">
-              言語：Python,Golang,Java,JavaScript,C++<br />
+              言語：Python,Go,Java,JavaScript,C++<br />
               フレームワーク：Vue,React,Flask,Gin<br />
               コンテナ：Docker<br />
               研究室内開発プロジェクト：部屋予約状況把握システム，書籍管理システム，感情評価システム<br />
-              その他：Git，linux
+              その他：Git，linux，AWS，C1FSS，Open API Generator
             </p>
             <!-- <ul
               class="ui-component-list ui-component-list-feature ui-layout-grid"
@@ -135,5 +135,17 @@ nav li a:hover {
   /* background-image: url(../img/kiritori2.png); */
   position: relative;
   top: 2000px;
+}
+
+@media screen and (max-width: 460px){
+  .sec-title {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  filter: drop-shadow(1px 1px 10px #c0c0c0);
+  position: absolute;
+  top: 35%;
+}
 }
 </style>

@@ -40,11 +40,11 @@ export default {
 
 <style scoped>
 .text--primary{
-    margin:50px 200px;
+    margin:10%;
     
 }
 .text--primary img{
-    margin-bottom:50px;
+    margin-bottom:10%;
     
 }
 </style>
